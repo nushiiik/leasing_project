@@ -15,7 +15,6 @@ https://share-docs.clickup.com/2659433/p/h/2h539-1814/717ef4a7686772f
 https://www.figma.com/community/file/1207629970111188913
 
 Проект можно развернуть у себя на компьютере посредством ввода команд в IDE:
-
-npm i
-npm run gulp - development
-npm run build - production
+### npm i
+### npm run gulp - development
+### npm run build - production
