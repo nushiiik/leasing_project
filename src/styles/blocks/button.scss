@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 40px;
+  background-color: $orange;
+  color: white;
+  border: 1px solid $orange;
+  transition: all .3s;
+  &:hover {
+    background-color: $black;
+    border-color: $black;
+  }
+  &:active {
+    background-color: $grey;
+    border-color: $grey;
+  }
+  &--light {
+    background-color: white;
+    color: $orange;
+    &:hover {
+      background-color: $orange;
+      color: white;
+      border-color: $orange;
+    }
+    &:active {
+      background-color: #FFA83D;
+      color: white;
+      border-color: #FFA83D;
+    }
+    @media screen and (max-width: 815px) {
+      padding: 12px 12px;
+    }
+    @include tablet {
+      display: none;
+    }
+  }
+}
+

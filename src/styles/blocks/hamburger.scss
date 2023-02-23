@@ -1,0 +1,24 @@
+.hamburger {
+  width: 32px;
+  height: 32px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 5px;
+  &__plank {
+    display: block;
+    border: 2.75px solid #000;
+    border-radius: 15px;
+    transition: all .3s;
+    &--short {
+      width: 16px;
+    }
+    @include phone {
+      border: 2.75px solid #fff;
+    }
+  }
+  @include tablet {
+    display: inline-flex;
+  }
+}

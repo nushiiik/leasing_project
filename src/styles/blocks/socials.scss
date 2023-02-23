@@ -1,0 +1,27 @@
+.socials{
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  &__link {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #E7E7E7;
+    border-radius: 50%;
+    position: relative;
+  }
+  &__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    fill: #575757;
+    &:hover {
+      fill: #111;
+    }
+  }
+}
+

@@ -1,0 +1,31 @@
+.paginator {
+  &__list {
+    display: flex;
+    gap: 18px;
+  }
+  &__item {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.4;
+    position: relative;
+    transition: all .3s;
+    &--active {
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+      position: relative;
+      transform: translateY(-25%);
+    }
+    &:hover {
+      width: 12px;
+      height: 12px;
+      opacity: 1;
+      position: relative;
+      transform: translateY(-25%);
+    }
+  }
+}
+
+
